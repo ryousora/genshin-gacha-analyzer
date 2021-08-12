@@ -160,7 +160,7 @@ export const LoadPage: FC<LoadPageProps> = function ({onLoad}) {
                         此网站是静态网站，你的文件不会被上传到网站后台，具体代码请查看
                         <Button
                             type='link'
-                            href='https://github.com/voderl/genshin-gacha-analyzer'
+                            href='https://github.com/ryousora/genshin-gacha-analyzer'
                             target='_blank'
                         >
                             github链接
