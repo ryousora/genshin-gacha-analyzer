@@ -149,28 +149,6 @@ export const LoadPage: FC<LoadPageProps> = function ({onLoad}) {
                 <p className='ant-upload-text'>点击选择抽卡记录导出文件或将文件拖拽到此区域</p>
                 <p className='ant-upload-text'>( 注：文件的后缀应为.xlsx )</p>
             </Dragger>
-            <Alert
-                css={css`
-                  margin: 20px auto;
-                  width: 100%;
-                  max-width: 600px;
-                `}
-                message={
-                    <div>
-                        此网站是静态网站，你的文件不会被上传到网站后台，具体代码请查看
-                        <Button
-                            type='link'
-                            href='https://github.com/ryousora/genshin-gacha-analyzer'
-                            target='_blank'
-                        >
-                            github链接
-                        </Button>
-                    </div>
-                }
-                type='warning'
-                showIcon
-            />
-            <FriendLinks mode='bottom' visible/>
         </div>
     );
 };
