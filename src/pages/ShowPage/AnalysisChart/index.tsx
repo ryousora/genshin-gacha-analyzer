@@ -53,14 +53,6 @@ export const AnalysisChart: FC<AnalysisChartProps> = ({ sheetNames, onGetData })
   }, [isVertical]);
   return (
     <div>
-      <Divider>
-        <span>
-          此页面参考自：
-          <a target='_blank' href='https://github.com/biuuu/genshin-gacha-export'>
-            github链接
-          </a>
-        </span>
-      </Divider>
       {ISMOBILE ? (
         <div
           css={css`

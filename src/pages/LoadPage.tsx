@@ -106,27 +106,6 @@ export const LoadPage: FC<LoadPageProps> = function ({onLoad}) {
                   margin: 20px 0;
                 `}
             >
-                <Alert
-                    message={
-                        <>
-                            <div>
-                                不知道如何获取抽卡记录导出文件？
-                                <a href='https://ngabbs.com/read.php?tid=25657464' target='_blank'>
-                                    <Button type='link'>请点击这里</Button>
-                                </a>
-                            </div>
-                            <div>
-                                合并多个抽卡记录文件
-                                <Button type='link' onClick={handleGoToMergePage}>
-                                    请点击这里
-                                </Button>
-                            </div>
-                        </>
-                    }
-                    type='info'
-                    showIcon={false}
-                    banner
-                />
             </div>
             <Dragger
                 name='file'

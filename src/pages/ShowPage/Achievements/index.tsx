@@ -236,11 +236,6 @@ export const Achievements: FC<AchievementsProps> = function ({ onGetData, sheetN
       >
         生成图片
       </Button>
-      <Divider>
-        <a href='https://github.com/voderl/genshin-gacha-analyzer/issues' target='_blank'>
-          更多成就开发中，欢迎前往issue提出你的建议...
-        </a>
-      </Divider>
       <FriendLinks mode='bottom' />
     </div>
   );
